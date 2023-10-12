@@ -1,0 +1,20 @@
+header .container .logo img{
+    margin-top: -10px;
+}
+header .container .navbar a{
+    padding: 2px;
+}
+article .container .details .col img{
+    width: 190px;
+    height: auto;
+}
+article .container .details .col h6{
+    width: 190px;
+}
+.article2 .container .cards .card0 img{
+    width: 330px;
+    height: auto;
+}
+.article2 .container .cards .card0 h3{
+    width: 330px;
+}

@@ -1,0 +1,16 @@
+header .container .navbar a{
+   padding: 10px;
+}
+.aside2{
+    display: none;
+}
+.article2{
+    margin-top: -200px;
+}
+.article2 .container .smallheading{
+   display: flex;
+   justify-content: center;
+}
+.article2 .container .smallheading h5{
+    margin-left: -50px;
+ }

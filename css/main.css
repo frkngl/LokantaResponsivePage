@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------NAVBAR---------------------------*/
+header .container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+header .container .navbar a {
+    padding: 20px;
+    color: #212121;
+    text-decoration: none;
+    font-weight: 500;
+}
+header .container .user {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+header .container .user h6 {
+    margin-top: 5px;
+}
+/*-------------------------------------------------------*/
+/*-----------------------ASIDE---------------------------*/
+aside {
+    width: 100%;
+    height: 784px;
+}
+aside .tanitim {
+    background-image: url(../img/Image.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+aside .tanitim .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside .tanitim .text h3 {
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 220px;
+}
+
+aside .tanitim .text button {
+    padding: 16px 64px;
+    background-color: #FD7E14;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 3px;
+}
+
+/*-------------------------------------------------------*/
+/*-----------------------ARTICLE-------------------------*/
+article{
+    margin-top: 70px;
+}
+article .container .icons .col {
+    display: inline-block;
+    padding: 0px 22px 0px 22px;
+}
+/*-------------------------------------------------------*/
+/*----------------------ARTICLE2-------------------------*/
+article .container{
+    display: flex;
+    flex-direction: column;
+}
+article .container h5{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+article .container .details{
+    display: flex;
+    flex-wrap: wrap;
+}
+article .container .details .col{
+    margin: 0px 0px 20px 0px;
+} 
+article .container .details .col img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+article .container .details .col h6{
+    width: 300px;
+}
+article .container button{
+    width: 210px;
+    height:50px;
+    background-color: #FFFFFF;
+    color: #121212;
+    font-size: 23px;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 10px;
+}
+/*-------------------------------------------------------*/
+/*-----------------------ASIDE2--------------------------*/
+.aside{
+    margin-top: 120px;
+}
+.aside #mail{
+    background-image: url(../img/paper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    flex-direction: column;
+}
+.aside #mail h3{
+    color: #FD7E14;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+.aside #mail .mailbox form{
+    display: flex;
+}
+.aside #mail .mailbox form input{
+    width: 300px;
+    height: 50px;
+    padding: 0.8rem;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px 0px 0px 10px;
+}
+.aside #mail .mailbox form button{
+background-color: #FD7E14;
+width: 50px;
+border: 0px;
+border-radius: 0px 10px 10px 0px;
+}
+/*-------------------------------------------------------*/
+/*-----------------------ASIDE3--------------------------*/
+.aside2{
+    margin-top: -200px;
+}
+.aside2 #kismi{
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+.aside2 #kismi .col .small-heading{
+    display: flex;
+    margin-top: 120px;
+}
+.aside2 #kismi .col .small-heading img{
+    width: 25px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.aside2 #kismi .col .small-heading h6{
+    font-size: 14px;
+    font-weight:lighter;
+    font-style: normal;
+    opacity: 0.6;
+}
+.aside2 #kismi .col .bigheading h2{
+    font-size: 70px;
+    margin-top: 30px;
+    align-self: stretch;
+}
+.aside2 #kismi .col .button button{
+    background-color: #FD7E14;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px 70px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 10px;
+}
+/*---------------------------------------------------*/
+/*--------------FEATURED COLLECTIONS-----------------*/
+.article2 .container .smallheading{
+    margin-left: 50px;
+}
+.article2 .container .smallheading h5{
+    opacity: 0.7;
+}
+.article2 .container .cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.article2 .container .cards .card0{
+    padding: 12px;
+}
+.article2 .container .cards .card0 img{
+    width: 543px;
+    height: 381px;
+    border-radius: 10px;
+}
+.article2 .container .cards .card0 h3{
+    width: 543px;
+    margin-top: 15px;
+}
+/*---------------------------------------------------*/
+/*---------------------FOOTER------------------------*/
+footer{
+    margin-top: 150px;
+    height: 200px;
+}
+footer div .logo img{
+    height: 20px;
+    margin-top: 10px;
+}
+footer .container div{
+    display: flex;
+    justify-content: space-between;
+}
+footer .container div .navbar a {
+    padding: 0px 10px 0px 10px;
+    color: #212121;
+    text-decoration: none;
+    font-weight: 500;
+}
+footer .container .eend{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .eend .social a{
+    padding: 0px 20px 0px 20px;
+}
+/*---------------------------------------------------*/
